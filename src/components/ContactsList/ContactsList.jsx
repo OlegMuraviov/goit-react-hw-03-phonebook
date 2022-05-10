@@ -1,6 +1,7 @@
 import ContactItem from 'components/ContactItem/ContactItem';
 
 const ContactsList = ({ contacts, onDeleteUser }) => {
+  console.log(contacts);
   return (
     <div>
       <ul>

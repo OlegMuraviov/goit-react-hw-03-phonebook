@@ -1,7 +1,5 @@
 import { Component } from 'react';
 
-// ({ onChangeInput, onAddUser }) => {
-
 class Phonebook extends Component {
   state = {
     name: '',
